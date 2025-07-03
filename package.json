@@ -1,0 +1,23 @@
+{
+  "name": "task-manager-cli",
+  "version": "1.0.0",
+  "description": "A simple task manager CLI built with TypeScript and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "todo": "npx tsc && npx ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": ["cli", "typescript", "task-manager"],
+  "author": "Kaik",
+  "license": "MIT",
+  "packageManager": "pnpm@10.8.1",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "bin": {
+    "todo": "./dist/index.js"
+  },
+  "type": "commonjs"
+}
