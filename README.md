@@ -45,4 +45,4 @@ todo
 ```
 
 ## 📄 License
-MIT 
+[MIT](LICENSE) 
